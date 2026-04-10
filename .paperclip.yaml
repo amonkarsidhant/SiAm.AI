@@ -1,0 +1,79 @@
+schema: "paperclip/v1"
+agents:
+  ceo:
+    role: "ceo"
+    adapter:
+      config:
+        dangerouslySkipPermissions: true
+        graceSec: 20
+        model: "openai/gpt-5.4"
+      type: "opencode_local"
+    runtime:
+      heartbeat:
+        intervalSec: 300
+        maxConcurrentRuns: 1
+    permissions:
+      canCreateAgents: true
+  clawy:
+    role: "general"
+    capabilities: "OpenClaw agent adapter via ngrok tunnel"
+    adapter:
+      config:
+        devicePrivateKeyPem: "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEILxcazOg/3BeVcbF3Uj9DlmuW9gaUHz2QC0QMF0kW+e5\n-----END PRIVATE KEY-----\n"
+        headers:
+          x-openclaw-token: "5d64f9e9a4f4e140e4774e98dd03e11a418fca2982d794f0"
+        paperclipApiUrl: "https://paperclip.homelabdev.space/"
+        sessionKeyStrategy: "issue"
+        url: "wss://overlofty-extendedly-ruthann.ngrok-free.dev/"
+      type: "openclaw_gateway"
+  cmo:
+    role: "cmo"
+    icon: "target"
+    capabilities: "Own marketing strategy, positioning, audience research, messaging, campaigns, content direction, and growth prioritization. Translate company priorities into focused go-to-market work, create marketing subtasks, and drive them to completion."
+    adapter:
+      config:
+        dangerouslySkipPermissions: true
+        graceSec: 20
+        model: "opencode/nemotron-3-super-free"
+      type: "opencode_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 300
+        maxConcurrentRuns: 1
+  cto:
+    role: "cto"
+    icon: "circuit-board"
+    capabilities: "Own technical strategy, engineering execution, architecture, infrastructure, technical hiring, and roadmap breakdown. Produce concrete plans, create technical subtasks, and drive work to completion."
+    adapter:
+      config:
+        dangerouslySkipPermissions: true
+        graceSec: 20
+        model: "opencode/minimax-m2.5-free"
+      type: "opencode_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 300
+        maxConcurrentRuns: 1
+projects:
+  onboarding:
+    color: "#6366f1"
+    status: "in_progress"
+sidebar:
+  agents:
+    - "ceo"
+    - "clawy"
+    - "cmo"
+    - "cto"
+  projects:
+    - "onboarding"
+tasks:
+  sia-1:
+    identifier: "SIA-1"
+    priority: "medium"
+    status: "blocked"
+  sia-2:
+    identifier: "SIA-2"
+    priority: "medium"
+    status: "done"
