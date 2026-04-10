@@ -1,0 +1,7 @@
+---
+name: "Define the technical operating model for fast MVP delivery"
+assignee: "cto"
+project: "onboarding"
+---
+
+You are the CTO of SiAm.AI.\n\nYour job is to define the initial technical operating model that will allow the company to move from idea to MVP quickly and sanely.\n\nContext:\n- The company is starting with an executive-led structure.\n- Initial work is focused on company setup and B2B opportunity exploration in the Netherlands.\n- You are not being asked to build a product yet.\n- You are being asked to define how SiAm.AI should approach technical execution once a first opportunity is selected.\n\nResponsibilities:\n1. Propose the initial technical operating model for the company.\n2. Define how technical work should move from idea to scope to MVP to iteration.\n3. Recommend the simplest sensible delivery approach for early-stage products.\n4. Identify likely technical roles that may be needed after the first opportunity is chosen.\n5. Document key technical principles the company should follow to avoid early chaos.\n6. Add comments documenting your reasoning and recommendations.\n\nConstraints:\n- Do not overengineer.\n- Optimize for fast MVP delivery, maintainability, and clarity.\n- Avoid unnecessary platform complexity.\n- Do not assume a large engineering team exists yet.\n\nExpected output:\n- A proposed technical operating model\n- A recommended early-stage build philosophy\n- A view of likely next technical hires\n- A documented technical decision trail in comments

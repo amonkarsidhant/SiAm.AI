@@ -71,7 +71,47 @@ tasks:
     identifier: "SIA-1"
     priority: "medium"
     status: "blocked"
+  sia-10:
+    identifier: "SIA-10"
+    priority: "medium"
+    status: "done"
+  sia-11:
+    identifier: "SIA-11"
+    priority: "high"
+    status: "todo"
+  sia-12:
+    identifier: "SIA-12"
+    priority: "medium"
+    status: "done"
   sia-2:
     identifier: "SIA-2"
     priority: "medium"
     status: "done"
+  sia-3:
+    identifier: "SIA-3"
+    priority: "high"
+    status: "done"
+  sia-4:
+    identifier: "SIA-4"
+    priority: "high"
+    status: "done"
+  sia-5:
+    identifier: "SIA-5"
+    priority: "high"
+    status: "todo"
+  sia-6:
+    identifier: "SIA-6"
+    priority: "high"
+    status: "backlog"
+  sia-7:
+    identifier: "SIA-7"
+    priority: "high"
+    status: "done"
+  sia-8:
+    identifier: "SIA-8"
+    priority: "high"
+    status: "done"
+  sia-9:
+    identifier: "SIA-9"
+    priority: "high"
+    status: "todo"

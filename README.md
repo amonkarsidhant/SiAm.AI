@@ -11,7 +11,7 @@
 | Agents | 4 |
 | Projects | 1 |
 | Skills | 4 |
-| Tasks | 2 |
+| Tasks | 12 |
 
 ### Agents
 
