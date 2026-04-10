@@ -38,7 +38,6 @@ agents:
       type: "opencode_local"
     runtime:
       heartbeat:
-        enabled: true
         intervalSec: 300
         maxConcurrentRuns: 1
   cto:
@@ -53,7 +52,6 @@ agents:
       type: "opencode_local"
     runtime:
       heartbeat:
-        enabled: true
         intervalSec: 300
         maxConcurrentRuns: 1
 projects:

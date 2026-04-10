@@ -1,48 +1,38 @@
 ---
-name: "Establish initial company operating direction"
+name: "Hire founding engineer + 30-day execution plan"
 assignee: "ceo"
 project: "onboarding"
 ---
 
 Description:
-You are the CEO of SiAm.AI.
+You are the CEO. Build the first execution system for this company.
 
-Your job is to establish the company’s initial operating direction and get the executive layer moving through delegation, not individual contributor work.
+Objectives:
+1) Define the founding engineer role and hiring criteria.
+2) Produce a practical hiring plan we can execute this week.
+3) Translate the company roadmap into concrete, delegable tasks.
 
-Current context:
-- The company is being built as an AI-native business builder.
-- Initial leadership includes CEO, CTO, and CMO.
-- Current active themes are:
-  1. Onboarding
-  2. B2B product / service / company ideation for the Netherlands
-  3. B2C product / service / company ideation for the Netherlands
-- The company should start focused, not broad.
-- B2B should be treated as the likely first business priority unless there is strong evidence otherwise.
-
-Your responsibilities for this issue:
-1. Review the current company situation and determine the correct initial priority order across Onboarding, B2B NL ideation, and B2C NL ideation.
-2. Confirm the role of the CEO, CTO, and CMO in practical operating terms.
-3. Decide whether any additional role is immediately required for execution capacity.
-4. Create and delegate the first executive issues to:
-   - CTO
-   - CMO
-5. Ensure those issues are specific, outcome-driven, and aligned to company priorities.
-6. Add comments documenting:
-   - what you decided
-   - why you prioritized the work that way
-   - what you delegated
-   - what outcome you expect from each executive
-7. Keep the company focused on a narrow and executable starting path.
+Deliverables (required):
+- Founding Engineer Scorecard:
+  - Mission for the role
+  - Must-have skills (max 6)
+  - Nice-to-have skills (max 5)
+  - Red flags / no-hire signals
+  - Interview loop with pass/fail rubric
+- Hiring Plan:
+  - Sourcing channels and outreach strategy
+  - Job post draft (short + compelling)
+  - 2-week pipeline plan with targets (apps, screens, interviews, offers)
+  - Compensation range recommendation + risk notes
+- Roadmap Breakdown:
+  - Next 30 days split into milestones
+  - 10-20 tasks with: owner role, priority (P0/P1/P2), estimate, dependencies, and done criteria
+  - Mark first 3 tasks to start immediately
+- Delegation Plan:
+  - Which tasks CEO keeps vs delegates first
+  - What role to hire next after founding engineer and why
 
 Constraints:
-- Do not do specialist execution work yourself.
-- Delegate rather than implement.
-- Prefer focus over parallelism.
-- Prefer B2B over B2C for the first company bet unless evidence strongly supports a different path.
-- Do not leave work unowned.
-
-Expected output:
-- A clear initial company priority order
-- First delegated issues for CTO and CMO
-- A documented decision trail in comments
-- A recommended next-step operating direction for the company
+- Be concrete and execution-focused.
+- Avoid vague advice.
+- Output in markdown with clear sections and tables where useful.
